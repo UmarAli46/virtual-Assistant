@@ -51,3 +51,17 @@ h1{
     box-shadow: 2px 2px 20px blue,2px 2px 20px rgb(0, 204, 255);
     letter-spacing: 2px;
 }
+
+
+@media(max-width:700px){
+#logo{
+    width: 60vw;
+ }
+
+ #btn{
+  
+    width: 200px;
+    display: inline-block;
+
+}
+}
