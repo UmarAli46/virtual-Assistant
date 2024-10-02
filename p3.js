@@ -85,8 +85,8 @@ function takeCommand(message){
     }
 
    else{
-    speak(`This is What i found on internet regarding ${message.replace("shifra","") || message.replace("shipra","")}`)
-    window.open(`https://www.google.com/search?q= ${message.replace("shipra","") || message.replace("shifra","")}`)
+    speak(`This is What i found on internet regarding ${message.replace("jarvis","") || message.replace("jarvis","")}`)
+    window.open(`https://www.google.com/search?q= ${message.replace("jarvis","") || message.replace("jarvis","")}`)
    }
     
 }
